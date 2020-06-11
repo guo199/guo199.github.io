@@ -1,0 +1,38 @@
+/*重置浏览器默认样式 */
+*{
+	margin:0;
+	padding:0;
+}
+ul,li {
+	list-style: none;
+}
+/* wrap */
+.wrap{
+	width:1180px;
+	padding:0 10px;
+	margin:0 auto;
+}
+/* header */
+#header {
+	background-color: red;
+	height: 150px;
+}
+#logo {
+	background-color: aquamarine;
+	float: left;
+}
+#nav {
+	background-color: aqua;
+	float: right;
+}
+#nav li{
+	float: left;
+}
+/* main */
+#main {
+	background-color: aqua;
+}
+/* footer */
+#footer {
+	background-color: #333;
+}
